@@ -1,5 +1,5 @@
 {
-  "name": "ngx-json-view",
+  "name": "ng-json-view",
   "version": "2.0.0",
   "description": "A JSON View component for Angular 2+",
   "main": "dist/src/index.js",
