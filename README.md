@@ -1,6 +1,8 @@
 # ngx-json-view
 A JSON View component for Angular 2+ (基于angular 2+ 的JSON展示组件)
 
+To test with local linked lib in demo, uncomment key `paths` in `demo/tsconfig.json`
+
 ## 安装
 
 ```
