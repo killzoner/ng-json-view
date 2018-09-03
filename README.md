@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/killzoner/ng-json-view.svg?branch=master)](https://travis-ci.org/killzoner/ng-json-view)
+
 # ngx-json-view
 A JSON View component for Angular 6+ (an angular 6+ based JSON display component)
 
