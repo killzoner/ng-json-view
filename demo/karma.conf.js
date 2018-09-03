@@ -2,6 +2,12 @@
 // https://karma-runner.github.io/0.13/config/configuration-file.html
 
 module.exports = function (config) {
+
+  /**
+   * Set chrome path from puppeter for test runs
+   */
+  process.env.CHROME_BIN = require('puppeteer').executablePath();
+
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
@@ -24,8 +30,15 @@ module.exports = function (config) {
               : ['progress', 'kjhtml'],
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: false
+    browsers: [
+	    'ChromeHeadlessNoSandbox'
+    ],
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
+        flags: ['--headless','--disable-gpu','--no-sandbox','--disable-setuid-sandbox']
+      }
+    },
+    singleRun: true
   });
 };
