@@ -4033,9 +4033,9 @@ neo-async@^2.5.0:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.2.tgz#489105ce7bc54e709d736b195f82135048c50fcc"
 
-ng-json-view@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/ng-json-view/-/ng-json-view-2.0.0.tgz#5fbcd080c82280f1e195b16694c59b771aef5816"
+ng-json-view@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ng-json-view/-/ng-json-view-2.1.0.tgz#b237491507e615ef7e9ffde1ef672af80283b875"
 
 nice-try@^1.0.4:
   version "1.0.5"
