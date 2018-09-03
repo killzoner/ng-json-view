@@ -37,10 +37,6 @@ export class AppComponent {
   customData = '{  }';
   customJson: object;
 
-  constructor() {
-    console.log(this);
-  }
-
   ngModelChange($event) {
     try {
       this.customJson = JSON.parse($event);
