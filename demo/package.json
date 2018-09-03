@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "tslint": "./node_modules/.bin/tslint \"src/**/*.ts\""
   },
   "private": true,
   "dependencies": {
