@@ -1,25 +1,25 @@
 [![Build Status](https://travis-ci.org/killzoner/ng-json-view.svg?branch=master)](https://travis-ci.org/killzoner/ng-json-view)
 
-# ngx-json-view
+# ng-json-view
 A JSON View component for Angular 6+ (an angular 6+ based JSON display component)
 
 ## installation
 
 ```
-npm install ngx-json-view --save
+npm install ng-json-view --save
 ```
 
 ## use
 - Install the dependency package：`ng-json-view`
 
 ```
-npm install ngx-json-view --save
+npm install ng-json-view --save
 ```
 
 - Import in module `NgxJsonViewModule`
 
 ```
-import { NgxJsonViewModule } from 'ngx-json-view';
+import { NgxJsonViewModule } from 'ng-json-view';
 
 @NgModule({
   declarations: [
