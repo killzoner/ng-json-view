@@ -10,6 +10,6 @@ install:
     - cd $TRAVIS_BUILD_DIR/demo && yarn install --frozen-lockfile
 script:
     - cd $TRAVIS_BUILD_DIR/demo
-    - yarn run build
+    - yarn run build:prod
     - yarn run lint
     - yarn run test
