@@ -51,7 +51,7 @@ export class JsonViewComponent implements OnInit {
 
   levelOpenHandle() {
     if (!isUndefined(this.levelOpen)) {
-      (this.level <= this.levelOpen) && (this.isOpen = true);
+      (this.level <= this.levelOpen) && (!this.isInit) && (this.isOpen = true);
     }
   }
 
