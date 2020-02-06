@@ -15,9 +15,8 @@
     "sass:replace": "node misc/replace_scss.js",
     "tmp": "ncp src tmp",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -r 0",
-    "build": "npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngc && ncp dist/src/tmp dist/src && npm run rimraf -- dist/src/tmp tmp",
-    "prepublish": "npm run build",
-    "postinstall": "ngcc" 
+    "build": "ngcc && npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngc && ncp dist/src/tmp dist/src && npm run rimraf -- dist/src/tmp tmp",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
