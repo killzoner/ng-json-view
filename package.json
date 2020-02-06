@@ -1,6 +1,6 @@
 {
   "name": "ng-json-view",
-  "version": "3.0.0-rc1",
+  "version": "3.0.0-rc2",
   "description": "A JSON View component for Angular 2+",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -16,7 +16,7 @@
     "tmp": "ncp src tmp",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -r 0",
     "build": "ngcc && npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngc && ncp dist/src/tmp dist/src && npm run rimraf -- dist/src/tmp tmp",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
