@@ -16,11 +16,14 @@
         "declaration": true
     },
     "angularCompilerOptions": {
+        "preserveWhitespaces": false,
         "annotateForClosureCompiler": true,
         "genDir": "dist",
+        "skipTemplateCodegen": false,
         "strictMetadataEmit": true,
         "fullTemplateTypeCheck": true,
-        "strictInjectionParameters": true
+        "strictInjectionParameters": true,
+        "enableIvy": false
     },
     "include": [
         "src/**/*"
