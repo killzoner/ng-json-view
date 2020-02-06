@@ -43,15 +43,15 @@
     "@angular/compiler": "^6.1.9",
     "@angular/compiler-cli": "^6.1.9",
     "@angular/core": "^6.1.9",
-    "bluebird": "^3.5.2",
-    "conventional-changelog-cli": "^2.0.5",
-    "gulp": "^3.9.1",
+    "bluebird": "^3.7.2",
+    "conventional-changelog-cli": "^2.0.31",
+    "gulp": "^4.0.2",
     "gulp-inline-ng2-template": "^5.0.1",
     "ncp": "^2.0.0",
-    "node-sass": "^4.7.2",
-    "rimraf": "^2.6.2",
-    "rxjs": "^6.3.3",
+    "node-sass": "^4.13.1",
+    "rimraf": "^3.0.1",
+    "rxjs": "^6.5.4",
     "typescript": "~2.9.2",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.29"
   }
 }
