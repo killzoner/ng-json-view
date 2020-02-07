@@ -1,6 +1,6 @@
 {
     "name": "ng-json-view",
-    "version": "3.0.0-rc24",
+    "version": "3.0.0",
     "description": "A JSON View component for Angular 9+",
     "main": "dist/src/index.js",
     "typings": "dist/src/index.d.ts",
