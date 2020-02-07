@@ -10,7 +10,7 @@
     "@angular-devkit/core" "9.0.1"
     rxjs "6.5.3"
 
-"@angular-devkit/build-angular@^0.900.0-rc.14":
+"@angular-devkit/build-angular@^0.900.0":
   version "0.900.1"
   resolved "https://registry.yarnpkg.com/@angular-devkit/build-angular/-/build-angular-0.900.1.tgz#84e989e98d25b87c06c5fb852fa6a3f4fc723db1"
   integrity sha512-e1/EiNI9UAKJxI9+7KA59A15Rkx2QA86evb9iUuwxWGvIsTsN/sg/oXUZA//nTUQTAht+qWJp3I2amd/nyQZLQ==
@@ -5762,10 +5762,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ng-json-view@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ng-json-view/-/ng-json-view-2.2.0.tgz#92656f44a498af6a746af442e10d6735a1acfdba"
-  integrity sha512-TqX++in2nTBW9YTM8NVocpfKrixsUaa4UzdYD2bNy02yVDyCkpmWW5MUOSXkM17IlAcb0K3p6x5jIdSIsQ+HuA==
+ng-json-view@^3.0.0-rc22:
+  version "3.0.0-rc6"
+  resolved "https://registry.yarnpkg.com/ng-json-view/-/ng-json-view-3.0.0-rc6.tgz#15997021cda460e5e6b9f14f7bf0eeafeb8c9b70"
+  integrity sha512-4sccVFHx9K69Md2Y1Iqd8QxOauHMQVpDd1hlk31f3sLbFNwJRikU8jFrLX+FIqfrPu/vOl5POZ2u9tJxbpaqTg==
 
 ng-packagr@^9.0.0:
   version "9.0.0"
