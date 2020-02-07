@@ -29,7 +29,7 @@
         "lib": {
           "entryFile": "src/public_api.ts"
         },
-        "dest": "../dist/my-lib"
+        "dest": "../dist"
     }
   }
   
