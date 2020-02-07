@@ -1,19 +1,22 @@
 {
   "name": "ng-json-view-root",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "clean": "npm run rimraf -- dist",
     "rimraf": "rimraf",
-    "build2": "ngcc && npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngcc",
-    "build": "npm run clean && ng-packagr -p ngx-json-view/package.json",
+    "metadata:package": "ncp ./README.md dist/README.md",
+    "build": "npm run clean && ng-packagr -p ngx-json-view/package.json && npm run metadata:package",
     "prepare": "npm run build"
   },
   "license": "MIT",
+  "dependencies": {
+    "@angular/core": "^9.0.0",
+    "@angular/common": "^9.0.0"
+  },
   "devDependencies": {
-    "@angular/common": "^9.0.0",
     "@angular/compiler": "^9.0.0",
     "@angular/compiler-cli": "^9.0.0",
-    "@angular/core": "^9.0.0",
     "@types/node": "^10.17.14",
     "ncp": "^2.0.0",
     "ng-packagr": "^9.0.0",
