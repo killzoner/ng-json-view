@@ -22,13 +22,13 @@
     "@angular/platform-browser-dynamic": "^9.0.0",
     "@angular/router": "^9.0.0",
     "bootstrap": "3.4.1",
-    "ng-json-view": "^2.2.0",
+    "ng-json-view": "^3.0.0-rc22",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "^0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.900.0-rc.14",
+    "@angular-devkit/build-angular": "^0.900.0",
     "@angular/cli": "^9.0.0",
     "@angular/compiler-cli": "^9.0.0",
     "@types/jasmine": "3.5.3",
