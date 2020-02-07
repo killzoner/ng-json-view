@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "outDir": "./dist/out-tsc",
+        "baseUrl": "./src",
+        "sourceMap": true,
         "module": "commonjs",
         "moduleResolution": "node",
-        "outDir": "dist/src",
-        "sourceMap": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
+        "target": "es5",
         "removeComments": false,
         "noImplicitAny": false,
         "lib": [
@@ -24,11 +25,5 @@
         "fullTemplateTypeCheck": true,
         "strictInjectionParameters": true,
         "enableIvy": true
-    },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    }
 }
