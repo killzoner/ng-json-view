@@ -5762,10 +5762,10 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-ng-json-view@3.0.0-rc24:
-  version "3.0.0-rc24"
-  resolved "http://localhost:4873/ng-json-view/-/ng-json-view-3.0.0-rc24.tgz#9faa95f4c4a03c2953247d8676527597721e561c"
-  integrity sha512-oOMSnqOfY4WrtZ5MEIWAXahl1Htwy1r/rg6+w2knasqAoQtHpczlmPWp13PNhUwFc26ihMnI2SPEa8tNUQnjDQ==
+ng-json-view@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ng-json-view/-/ng-json-view-3.0.0.tgz#8ca2982ede36c4d441d0fce5f90cae58ace1b2d4"
+  integrity sha512-ZNdPFXeWpBaxqWqovE+XpAwSen6VDHrfKG7HfBxcVQvPD05K/h3o63dSOA1Pmt1SNdGW8SVRKXUKsHBk8jbg8A==
 
 ng-packagr@^9.0.0:
   version "9.0.0"
