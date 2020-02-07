@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "^9.0.0",
     "@angular/router": "^9.0.0",
     "bootstrap": "3.4.1",
-    "ng-json-view": "^3.0.0-rc22",
+    "ng-json-view": "3.0.0-rc23",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "^0.10.2"

@@ -14,7 +14,7 @@
             "es2018",
             "dom"
         ],
-        "declaration": true
+        "declaration": false
     },
     "angularCompilerOptions": {
         "preserveWhitespaces": false,
