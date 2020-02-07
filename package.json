@@ -7,7 +7,7 @@
     "rimraf": "rimraf",
     "metadata:package": "ncp ./README.md dist/README.md",
     "build": "npm run clean && ng-packagr -p ngx-json-view/package.json && npm run metadata:package",
-    "prepare": "npm run build"
+    "postinstall": "npm run build"
   },
   "license": "MIT",
   "dependencies": {
