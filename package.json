@@ -9,6 +9,7 @@
     "gulp": "gulp",
     "inline": "npm run gulp -- --gulpfile misc/inline-resources.gulp.js",
     "ngc": "ngc -p tsconfig-aot.json && npm run rimraf -- dist/src/node_modules",
+    "ngcc": "ngcc",
     "rimraf": "rimraf",
     "sass": "npm run sass:compile && npm run sass:replace",
     "sass:compile": "node-sass src -o tmp",
@@ -16,6 +17,7 @@
     "tmp": "ncp src tmp",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -r 0",
     "build": "ngcc && npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngc && ncp dist/src/tmp dist/src && npm run rimraf -- dist/src/tmp tmp",
+    "build2": "ngcc && npm run clean && npm run tmp && npm run sass && npm run inline && npm run ngcc",
     "prepare": "npm run build"
   },
   "repository": {
@@ -39,10 +41,10 @@
   },
   "homepage": "https://github.com/killzoner/ng-json-view#readme",
   "devDependencies": {
-    "@angular/common": "^9.0.0-rc.14",
-    "@angular/compiler": "^9.0.0-rc.14",
-    "@angular/compiler-cli": "^9.0.0-rc.14",
-    "@angular/core": "^9.0.0-rc.14",
+    "@angular/common": "^9.0.0",
+    "@angular/compiler": "^9.0.0",
+    "@angular/compiler-cli": "^9.0.0",
+    "@angular/core": "^9.0.0",
     "bluebird": "^3.7.2",
     "conventional-changelog-cli": "^2.0.31",
     "gulp": "^4.0.2",
